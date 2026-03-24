@@ -1,5 +1,5 @@
 import flet
-from flet import ThemeMode, Text, TextField, OutlinedButton, Column, CrossAxisAlignment
+from flet import ThemeMode, Text, TextField, OutlinedButton, Column, CrossAxisAlignment, Container, Colors, FontWeight
 from flet.controls import page
 
 
@@ -16,6 +16,7 @@ def main(page: flet.Page):
         page.update()
 
     # Componentes
+
     text = Text("")
     input_nome = TextField(label="Nome")
     input_sobrenome = TextField(label="Sobrenome")
@@ -23,44 +24,59 @@ def main(page: flet.Page):
 
     # Construção da tela
     page.add(
-        Column(
-            [
-                input_nome,
-                input_sobrenome,
-                btn_salvar,
-                text
-            ],
+
+        Container(
+            Column(
+                [
+                    Text("Atividade 01", weight=FontWeight.BOLD),
+                    input_nome,
+                    input_sobrenome,
+                    btn_salvar,
+                    text,
+                ],
+                horizontal_alignment=CrossAxisAlignment.CENTER,
+            ),
+            bgcolor=Colors.BLUE_100,
+            padding=15,
+            border_radius=10,
             width=400,
-            horizontal_alignment=CrossAxisAlignment.CENTER
         )
     )
+
     # Funções
     def verificar():
         try:
             n1 = int(input_numero.value)
             result = n1 % 2
             if result == 0:
-                text.value = f'{n1} , Seu número é par!'
+                text_verificar.value = f'{n1} , Seu número é par!'
             else:
-                text.value = f'{n1} , Seu número é impar!'
+                text_verificar.value = f'{n1} , Seu número é impar!'
         except ValueError:
-            text.value = f'Apenas numeros!'
+            text_verificar.value = f'Apenas numeros!'
 
     # Componentes
     text_verificar = Text()
-    input_numero = TextField(label="Digite o primeiro numero")
+    input_numero = TextField(label="Digite o número")
     btn_verificar = OutlinedButton("Verificar", on_click=verificar)
 
     # Construção da tela
     page.add(
-        Column(
-            [
-                input_numero,
-                btn_verificar,
-                text_verificar
-            ],
+
+        Container(
+            Column(
+                [
+                    Text("Atividade 02", weight=FontWeight.BOLD),
+                    input_numero,
+                    btn_verificar,
+                    text_verificar,
+                ],
+                horizontal_alignment=CrossAxisAlignment.CENTER,
+            ),
+            bgcolor=Colors.PURPLE_100,
+            padding=15,
+            border_radius=10,
             width=400,
-            horizontal_alignment=CrossAxisAlignment.CENTER
         )
     )
 
@@ -68,28 +84,36 @@ def main(page: flet.Page):
         idade = int(input_nascimento.value)
         resultado_idade = 2026 - idade
         if resultado_idade >= 18:
-            text.value = f"Ele tem {resultado_idade} anos. Ele é maior de idade, "
+            text_verificar2.value = f"Ele tem {resultado_idade} anos. Ele é maior de idade, "
             page.update()
         else:
-            text.value = f"Ele tem {resultado_idade} anos. Ele é menor de idade, "
+            text_verificar2.value = f"Ele tem {resultado_idade} anos. Ele é menor de idade, "
             page.update()
 
     # componentes
     input_nascimento = TextField(label="Digite o ano de nascimento")
     btn_verificar2 = OutlinedButton("Verificar", on_click=nascimento)
-    text_verificar = Text()
+    text_verificar2 = Text()
 
     # Contrução da tela
     page.add(
-        Column(
-            [
-                input_nascimento,
-                btn_verificar2,
-                text_verificar
-            ],
+
+        Container(
+            Column(
+                [
+                    Text("Atividade 03", weight=FontWeight.BOLD),
+                    input_nascimento,
+                    btn_verificar2,
+                    text_verificar2,
+                ],
+                horizontal_alignment=CrossAxisAlignment.CENTER,
+            ),
+            bgcolor=Colors.PINK_100,
+            padding=15,
+            border_radius=10,
             width=400,
-            horizontal_alignment=CrossAxisAlignment.CENTER
         )
     )
 
-flet.app(main)
+
+flet.run(main)
