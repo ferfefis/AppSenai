@@ -47,7 +47,7 @@ def main(page: flet.Page):
             text.value = f'Apenas numeros!'
 
     # Componentes
-    text = Text("")
+    text_verificar = Text()
     input_numero = TextField(label="Digite o primeiro numero")
     btn_verificar = OutlinedButton("Verificar", on_click=verificar)
 
@@ -57,7 +57,7 @@ def main(page: flet.Page):
             [
                 input_numero,
                 btn_verificar,
-                text
+                text_verificar
             ],
             width=400,
             horizontal_alignment=CrossAxisAlignment.CENTER
@@ -76,15 +76,16 @@ def main(page: flet.Page):
 
     # componentes
     input_nascimento = TextField(label="Digite o ano de nascimento")
-
-    btn_salvar_tres = OutlinedButton("Salvar", on_click=nascimento)
+    btn_verificar2 = OutlinedButton("Verificar", on_click=nascimento)
+    text_verificar = Text()
 
     # Contrução da tela
     page.add(
         Column(
             [
                 input_nascimento,
-                btn_salvar_tres,
+                btn_verificar2,
+                text_verificar
             ],
             width=400,
             horizontal_alignment=CrossAxisAlignment.CENTER
