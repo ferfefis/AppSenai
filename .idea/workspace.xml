@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45e7fd29-cdda-45ab-b457-6cfb623974a3" name="Changes" comment="Atividade Mobile">
+    <list default="true" id="45e7fd29-cdda-45ab-b457-6cfb623974a3" name="Changes" comment="Atividade Mobile com o fundo colorido">
+      <change afterPath="$PROJECT_DIR$/src/app_navegacao_modelo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio01_navegacao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio02_navegacao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicio03_navegacao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/app_modelo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ferfefis"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ferfefis&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ferfefis/AppSenai.git",
-    "accountId": "ab0ef811-aa82-4af3-8135-ed380d931428"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ferfefis/AppSenai.git&quot;,
+    &quot;accountId&quot;: &quot;ab0ef811-aa82-4af3-8135-ed380d931428&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -47,11 +51,15 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app_navegacao.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercicio02_navegacao.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercicio03_navegacao.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/senai_25_26/PycharmProjects/AppSenai&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -60,6 +68,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\senai_25_26\PycharmProjects\AppSenai" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\senai_25_26\PycharmProjects\AppSenai\src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,7 +94,10 @@
       <workItem from="1773768030648" duration="7303000" />
       <workItem from="1774264419285" duration="287000" />
       <workItem from="1774291661761" duration="681000" />
-      <workItem from="1774349773148" duration="9936000" />
+      <workItem from="1774349773148" duration="14189000" />
+      <workItem from="1774869787346" duration="22000" />
+      <workItem from="1774954978343" duration="14173000" />
+      <workItem from="1774975731864" duration="5005000" />
     </task>
     <task id="LOCAL-00001" summary="Atividade Mobile">
       <option name="closed" value="true" />
@@ -96,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774360533600</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Atividade Mobile com o fundo colorido">
+      <option name="closed" value="true" />
+      <created>1774370244896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774370244896</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,9 +131,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Atividade Mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atividade Mobile" />
+    <MESSAGE value="Atividade Mobile com o fundo colorido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atividade Mobile com o fundo colorido" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AppSenai$app_navegacao.coverage" NAME="app_navegacao Coverage Results" MODIFIED="1774957077165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/AppSenai$exercicio03_navegacao.coverage" NAME="exercicio03_navegacao Coverage Results" MODIFIED="1774977585145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/AppSenai$exercicio02_navegacao.coverage" NAME="exercicio02_navegacao Coverage Results" MODIFIED="1774971875292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/AppSenai$app.coverage" NAME="app Coverage Results" MODIFIED="1774369450496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
