@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45e7fd29-cdda-45ab-b457-6cfb623974a3" name="Changes" comment="Exercicios Mobile/Navegação">
+      <change afterPath="$PROJECT_DIR$/src/app_lista_ex01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app_lista_ex02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app_listas_modelo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicio01_navegacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio01_mensagem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicio02_navegacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio02_cadastro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicio03_navegacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicio03_POO.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,29 +48,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app_modelo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app_navegacao.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app_navegacao_modelo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercicio02_navegacao.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercicio03_navegacao.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/senai_25_26/PycharmProjects/AppSenai&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.app.executor": "Run",
+    "Python.app_lista_ex01.executor": "Run",
+    "Python.app_lista_ex02.executor": "Run",
+    "Python.app_listas.executor": "Run",
+    "Python.app_listas_modelo.executor": "Run",
+    "Python.app_modelo.executor": "Run",
+    "Python.app_navegacao.executor": "Run",
+    "Python.app_navegacao_modelo.executor": "Run",
+    "Python.exercicio02_cadastro.executor": "Run",
+    "Python.exercicio02_navegacao.executor": "Run",
+    "Python.exercicio03_POO.executor": "Run",
+    "Python.exercicio03_navegacao.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/senai_25_26/PycharmProjects/AppSenai",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\senai_25_26\PycharmProjects\AppSenai" />
@@ -96,6 +108,8 @@
       <workItem from="1774954978343" duration="14173000" />
       <workItem from="1774975731864" duration="7610000" />
       <workItem from="1775473610155" duration="10000" />
+      <workItem from="1777893756391" duration="21935000" />
+      <workItem from="1777978226676" duration="18175000" />
     </task>
     <task id="LOCAL-00001" summary="Atividade Mobile">
       <option name="closed" value="true" />
@@ -129,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774981950080</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Exercicios Mobile/Navegação">
+      <option name="closed" value="true" />
+      <created>1777893829324</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1777893829324</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,10 +165,16 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AppSenai$app_navegacao.coverage" NAME="app_navegacao Coverage Results" MODIFIED="1774957077165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/AppSenai$app_navegacao_modelo.coverage" NAME="app_navegacao_modelo Coverage Results" MODIFIED="1774983273155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/AppSenai$exercicio03_navegacao.coverage" NAME="exercicio03_navegacao Coverage Results" MODIFIED="1774983269040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/AppSenai$app_listas.coverage" NAME="app_listas Coverage Results" MODIFIED="1777915640572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/AppSenai$exercicio02_navegacao.coverage" NAME="exercicio02_navegacao Coverage Results" MODIFIED="1774983264671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/AppSenai$app_modelo.coverage" NAME="app_modelo Coverage Results" MODIFIED="1774983259963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/AppSenai$exercicio03_POO.coverage" NAME="exercicio03_POO Coverage Results" MODIFIED="1777979145367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/AppSenai$app_lista_ex01.coverage" NAME="app_lista_ex01 Coverage Results" MODIFIED="1777984874287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/AppSenai$app.coverage" NAME="app Coverage Results" MODIFIED="1774369450496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/AppSenai$app_navegacao_modelo.coverage" NAME="app_navegacao_modelo Coverage Results" MODIFIED="1774983273155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/AppSenai$app_listas_modelo.coverage" NAME="app_listas_modelo Coverage Results" MODIFIED="1777920798252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/AppSenai$exercicio02_cadastro.coverage" NAME="exercicio02_cadastro Coverage Results" MODIFIED="1777979053378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/AppSenai$app_lista_ex02.coverage" NAME="app_lista_ex02 Coverage Results" MODIFIED="1778005240290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/AppSenai$app_modelo.coverage" NAME="app_modelo Coverage Results" MODIFIED="1774983259963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
